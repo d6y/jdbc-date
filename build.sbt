@@ -2,7 +2,7 @@ name := "slick-jdbc-localdate"
 
 version := "1.0.0"
 
-scalaVersion := "2.12.6"
+scalaVersion := "2.12.9"
 
 scalacOptions ++= Seq(
   "-deprecation",
@@ -17,8 +17,8 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "com.typesafe.slick" %% "slick"           % "3.3.1",
-  "org.postgresql"      % "postgresql"      % "42.1.4",
+  "com.typesafe.slick" %% "slick"           % "3.3.2",
+  "org.postgresql"      % "postgresql"      % "42.2.6",
   "ch.qos.logback"      % "logback-classic" % "1.2.3"
 )
 
